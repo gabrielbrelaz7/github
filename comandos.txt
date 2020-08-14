@@ -1,8 +1,10 @@
 #Para apagar o branch localmente:
 git branch -D <nome do branch>
 
+# Para excluir um branch remoto já apagado localmente
+git push origin <nome-do-branch>
 
-#Para apagar o branch remotamente:
+# Para apagar o branch remotamente:
 git push <nome do origin> <nome do branch> --delete
 
 # Indo para o branch da feature
@@ -18,4 +20,8 @@ git status
 git log --oneline 
 
 # Para desfazer commits 
-git reser --hard <commit>
+git reset --hard <commit>
+
+# Para listar todos os branches 
+git reset --hard <commit>
+
